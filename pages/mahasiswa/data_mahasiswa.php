@@ -2,7 +2,7 @@
     <section class="content-header">
         <h1>Data Mahasiswa</h1>
         <ol>
-            <li><a href="index.php"><i class="fa fa-dashboard"></i> HOME</a></li>
+            <li><a href="index.php"><i class="fa fa-dashboard"></i> Home</a></li>
             <li class="active">Data Mahasiswa</li>
         </ol>
     </section>
