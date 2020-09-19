@@ -7,6 +7,9 @@ if(isset($_GET['page'])){
         case 'data_mahasiswa':
             include 'pages/mahasiswa/data_mahasiswa.php';
         break;
+        case 'tambah_mahasiswa';
+            include '/pages/mahasiswa/tambah_mahasiswa.php';
+        break;
     }
 }else{
     include "pages/beranda.php";
