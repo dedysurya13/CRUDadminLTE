@@ -9,7 +9,7 @@ if($_POST){
     if(!mysql_query($query)){
         die(mysql_error);
     }else{
-        echo '<script>alert("Data Berhasil Ditambahkan !!!");
+        echo '<script>alert("Data Berhasil Ditambahkan.");
         window.location.href="../../index.php?page=data_mahasiswa"</script>';
     }
 }
