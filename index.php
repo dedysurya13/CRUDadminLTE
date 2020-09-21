@@ -1,6 +1,10 @@
 <?php
 session_start();
 include "conf/conn.php";
+if(isset($_SESSION['id_admin'])==0){
+    echo '<script>alert("Anda Harus Login Terlebih Dahulu !!!");
+    window.location.href="pages/login.php"</script>';
+    }else{
 ?>
 <!DOCTYPE html>
 <html>
@@ -407,3 +411,5 @@ include "conf/conn.php";
 <script src="plugins/datatables/dataTables.bootstrap.min.js"></script>
 </body>
 </html>
+
+<?php } ?>
