@@ -8,7 +8,10 @@ if(isset($_GET['page'])){
             include 'pages/mahasiswa/data_mahasiswa.php';
         break;
         case 'tambah_mahasiswa';
-            include '/pages/mahasiswa/tambah_mahasiswa.php';
+            include 'pages/mahasiswa/tambah_mahasiswa.php';
+        break;
+        case 'update_mahasiswa';
+            include 'pages/mahasiswa/ubah_mahasiswa.php';
         break;
     }
 }else{
