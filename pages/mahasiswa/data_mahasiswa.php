@@ -41,7 +41,7 @@
                                             <td><?php echo $row['jurusan'];?></td>
                                             <td>
                                                 <a href="index.php?page=ubah_mahasiswa&id=<?=$row['id_mahasiswa'];?>" class="btn btn-success" role="button" title="Ubah Data"><i class="glyphicon glyphicon-edit"></i></a>
-                                                <a href="pages/mahasiswa/hapus_mahasiswa.php?id=<?=$row['id_mahasiswa'];?>" class="btn btn-danger" role="button" title="Hapus Data"><i class="glyphicon glyphicon-trash"></i></a>
+                                                <a href="pages/mahasiswa/hapus_mahasiswa.php?id=<?=$row['id_mahasiswa'];?>" class="btn btn-danger" role="button" title="Hapus Data" onclick="return confirm('Yakin ingin menghapus data ini?')"><i class="glyphicon glyphicon-trash"></i></a>
                                             </td>
                                         </tr>
                                 <?php
